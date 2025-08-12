@@ -302,5 +302,5 @@ function Typingbox2() {
         </div>
     );
 }
-
 export default Typingbox2
+
