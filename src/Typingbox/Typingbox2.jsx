@@ -279,10 +279,7 @@ function Typingbox2() {
                     <p className="text-blue-400 font-semibold text-2xl">
                         Accuracy: <span className="">{accuracy}%</span>
                     </p>
-                    <p className="text-gray-300">
-                        Correct chars: <span className="font-mono">{correctChars}</span>
-                    </p>
-
+                    
                 </div>
             )}
 
