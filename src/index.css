@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+    --bg-color: #241c21;
+    --main-color: #a6e22e;
+    --caret-color: #d0f8ff;
+    --sub-color: #e6db74;
+    --sub-alt-color: #1f201b;
+    --text-color: #e2e2dc;
+    --error-color: #f92672;
+    --error-extra-color: #fd971f;
+    --colorful-error-color: #f92672;
+    --colorful-error-extra-color: #fd971f;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;             /* Chrome, Safari, Opera */
+}
